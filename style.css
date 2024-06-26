@@ -322,6 +322,7 @@ nav a:hover {
 			rgba(109, 47, 243, 0.75) 121.16%);
 	color: #fff;
 	font-weight: bold;
+	
 }
 
 .show {
@@ -333,10 +334,13 @@ nav a:hover {
 }
 
 .fade {
-	animation-name: fade;
-	animation-duration: 1.5s;
+	animation-name: fadeIn;
+	animation-duration: 1.2s;
 }
-
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
 .contactUs {
 	margin-bottom: 100px;
 }
