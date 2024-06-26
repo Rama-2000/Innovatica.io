@@ -38,5 +38,3 @@ let tabs = document.querySelectorAll(".tabheader__item"),
 		}
 	})
 
-	// feather.replace();
-

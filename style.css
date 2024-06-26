@@ -9,7 +9,9 @@ body {
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
-
+p{
+	margin-bottom: 0;
+}
 a {
 	text-decoration: none;
 	color: white;
@@ -52,16 +54,13 @@ header {
 
 header .logo {
 	display: flex;
-	gap: 9px;
+	gap: 12px;
 	align-items: center;
-	flex-wrap: wrap;
-	width: 230px;
 }
 
 header .logo p {
 	font-size: 25px;
 	font-weight: 600;
-	letter-spacing: 2px;
 }
 
 .sticky .logo p {
